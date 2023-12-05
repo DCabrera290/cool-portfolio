@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Pixelify+Sans&family=Varela+Round&display=swap');
+
+body {
+    font-family: "Pixelify Sans";
+    background-color: rgb(15, 15, 15);
+    color: lime;
+}
+div.content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+div.tools {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    text-align: center;
+}
+#titulo {
+    text-align: center;
+    text-shadow: 3px 3px 2 lime;
+    color: white;
+    margin: 0;
+    padding: 10%;
+    background-image: url('https://i.pinimg.com/originals/21/7d/a2/217da299cc918fad9b76eb99e4bb75b3.gif');
+    background-size: 100%;
+}
+#head {
+    width: 100%;
+    background-color: darkslateblue;
+}
+a {
+    color: red;
+}
+a:hover {
+    color: magenta;
+}
+img {
+    height: 150px;
+    border: 2px solid white;
+}
+img:hover {
+    animation: scaleUp 0.2s linear 1;
+}
+p {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+h2 {
+    text-align: center;
+}
+.project-desc {
+    background-color: black;
+    border-radius: 20px;
+}
+
+h1, h2 {
+    color: white;
+}
+
+@keyframes scaleUp {
+    0% {
+        scale: 100%;
+    }
+    50% {
+        scale: 110%;
+    }
+    100% {
+        scale: 100%;
+    }
+}
